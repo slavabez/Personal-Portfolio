@@ -4,7 +4,7 @@ Personal Portfolio for Slava Bezgachev
 
 ## About me
 
-A sumamry of my experiences.
+A sumamry of my experience. Links to my cv etc
 
 ## Projects 
 
