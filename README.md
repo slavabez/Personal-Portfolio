@@ -6,7 +6,7 @@ Personal Portfolio for Slava Bezgachev
 
 - [About me](#about-me)
 - [Skills and Technologies](#skills-and-technologies)
-- [Projects](#projects)
+- [Case Studies](#case-studies)
   - [Project One](#project-one)
 
 ## About me
@@ -20,25 +20,29 @@ My name is Slava Bezgachev and I am a full stack web developer with 3+ years of 
   - **ES6 and ES7.**
     The latest and greatest of Javascript
   - **ReactJS.**
-    React is my go-to language for almost any front-end site because of how fast it is.
+    React is my go-to framework for almost any front-end site because of how fast it is.
   - **NodeJS.**
     I use Node, usually with Express because it works well with the web due to it's event-driven architecture.
+  - **Various libraries and frameworks.**
+    Over the years I've used a plethora of NPM libraries and frameworks, for such purposes as security, monitoring, maintenance or styling.
+- **Other programming languages.**
+Over the years I've used a lot of programming languages, some for a long time and others for a little while. I've used **PHP** and **.NET** commercially, as well as **Java, C++ and Go** in my own time on personal projects.
 - **Databases.**
 I've used both SQL databases, including MySQL and MSSQL, as well as MongoDB, a no-SQL database.
-- **Other programming languages.**
-Over the years I've used a lot of programming languages, some for a long time and others for a little while. I've used **PHP** and **.NET** commercially, as well as **Java, C++ and Golang** in my own time on personal projects.
 - **Redis.**
-  Redis is a great and simple caching. I typically put it between the Node server and the database, like MongoDB
+  Redis is a great and simple in-memory data storage. I typically put it between the Node server and the database, like MongoDB, to serve as a caching layer
 
-## Projects
+## Case Studies
 
 - [Project one](#project-two)
 - [Project two](#project-two)
 - [Project three](#project-three)
 
-### Project One
+### Node and Express API for Konfetka
 
-Some content for Project one
+The Konfetka site is a simple website with information about store locations and products offered in Konfetka, a small chain of confectionery shops in Kokshetau, Kazakhstan.
+
+This case study will cover  
 
 ### Project Two
 
