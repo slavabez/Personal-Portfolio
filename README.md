@@ -34,20 +34,28 @@ I've used both SQL databases, including MySQL and MSSQL, as well as MongoDB, a n
 
 ## Case Studies
 
-- [Project one](#project-two)
-- [Project two](#project-two)
-- [Project three](#project-three)
+- [Node and Express API for Konfetka](#node-and-express-api-for-konfetka)
 
-### Node and Express API for Konfetka
+### Node and Express API for Konfetka with ReactJS front-end
+
+[Link to the repository](https://github.com/skazka-kz/konfetka)
 
 The Konfetka site is a simple website with information about store locations and products offered in Konfetka, a small chain of confectionery shops in Kokshetau, Kazakhstan.
 
-This case study will cover  
+This case study will cover the project, which is still ongoing, including the approach taken, the structure of the project, how it's tested and how it's deployed.
 
-### Project Two
+#### Back-end structure (NodeJS with Express)
 
-Lorem ipsum
+* Project directory united with the front-end for simpler deployment and packaging
+* Express server with the following add-ons and middleware:
+    * PassportJS for local authentication using MongoDB, hashing and salting with "bcrypt"
+    * Mongoose
+    * Helmet for basic express security
+    * Winston for smarter and more flexible async logging
+    * Multer for file upload
+    * Custom caching middleware with the help of Redis. Achieved by hooking up to Mongoose and [overriding the query prototype function](https://github.com/skazka-kz/konfetka/blob/master/server/services/redisCache.js)
 
-### Project Three
+#### Front-end structure (ReactJS)
 
-Content here for project three
+* The project is an ejected Create-React-App. Ejected because I wanted to test both the React side and the Node side wit ha single test suite using Jest.
+* Styled Components 
