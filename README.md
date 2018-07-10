@@ -58,4 +58,7 @@ This case study will cover the project, which is still ongoing, including the ap
 #### Front-end structure (ReactJS)
 
 * The project is an ejected Create-React-App. Ejected because I wanted to test both the React side and the Node side wit ha single test suite using Jest.
-* Styled Components 
+* Styled Components. Amazing helper library for easier, separated and independent styles
+* Bespoke CSS using Flexbox
+* Separated admin section, only loaded if needed to make the JS bundle significantly smaller as the admin section has a lot of code
+* react-easy-state for managing the application state in the Admin section. Subject to change for Redux or Redux observables. The non-admin section only uses react component-level state
