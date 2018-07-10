@@ -6,13 +6,14 @@ Personal Portfolio for Slava Bezgachev
 
 - [About me](#about-me)
 - [Skills and Technologies](#skills-and-technologies)
-- [Case Studies](#case-studies)
-  - [Full-stack Node and reactJS application](#node-and-express-api-for-konfetka-with-reactjs-front-end)
+- [Case Studies](#portfolio-and-case-studies)
+  - [Full-stack NodeJS and ReactJS application](#full-stack-javascript-app-with-react-and-express)
 
 ## About me
 
 My name is Slava Bezgachev and I am a full stack web developer with 3+ years of commercial experience. Lately I've been focusing on mastering Javascript with ReactJS on the front-end with NodeJS on the back-end.
 
+This mini-portfolio shows some of the projects I am or have been working on. Work in progress.
 ## Skills and technologies
 
 - **Javascript.**
@@ -31,12 +32,18 @@ Over the years I've used a lot of programming languages, some for a long time an
 I've used both SQL databases, including MySQL and MSSQL, as well as MongoDB, a no-SQL database.
 - **Redis.**
   Redis is a great and simple in-memory data storage. I typically put it between the Node server and the database, like MongoDB, to serve as a caching layer
+- **DevOps & System administration**
+  I'm almost always responsible for deployment and maintenance of the applications I've created. I've used such tools and platforms as:
+  - **GNU/Linux**. I've mostly used Debian and Debian-based operating systems, and I've got some experience with Redhat, CentOS and FreeBSD.
+  - **Docker**. Docker is my platform of choice for deploying and packaging applications.
+  - **AWS**. I've used numerous AWS services, such as EC2, S3, Elastic Beanstalk, IAM, etc.
 
-## Case Studies
 
-- [Node and Express API for Konfetka](#node-and-express-api-for-konfetka)
+# Portfolio and case studies
 
-### Node and Express API for Konfetka with ReactJS front-end
+- [Node and Express API for Konfetka](#full-stack-javascript-app-with-react-and-express)
+
+## Full stack Javascript app with React and Express
 
 [Link to the repository](https://github.com/skazka-kz/konfetka)
 
