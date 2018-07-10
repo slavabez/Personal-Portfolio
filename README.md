@@ -7,7 +7,7 @@ Personal Portfolio for Slava Bezgachev
 - [About me](#about-me)
 - [Skills and Technologies](#skills-and-technologies)
 - [Case Studies](#case-studies)
-  - [Project One](#project-one)
+  - [Full-stack Node and reactJS application](#node-and-express-api-for-konfetka-with-reactjs-front-end)
 
 ## About me
 
